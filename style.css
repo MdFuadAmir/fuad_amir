@@ -57,4 +57,31 @@
     border-radius: 7px;
     border: none;
 }
+.aboutus{
+    text-align: center;
+    color: rgb(241, 8, 98);
+    font-size: 50px;
+    
+}
+.about-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-head{
+    color: #40d457;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about-pra{
+    margin-bottom: 20px;
+}
+.about-btn{
+    color: #fff;
+    background-color: crimson;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 
+}
