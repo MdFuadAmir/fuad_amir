@@ -1,11 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgba(128, 128, 128, 0.377);
+    
 }
 .menu-container{
-    background-color: rgba(224, 13, 55, 0.568);
-    padding: 20px;
+    background-color: rgba(12, 11, 11, 0.958);
+    padding: 10px;
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -13,11 +13,14 @@
 }
 .menus{
     display: flex;
+    list-style: none;
+    background-color: transparent;
 }
 .m-value{
-    margin-right: 10px;
+    margin-right: 40px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+    cursor: pointer;
 }
 .logo-photo{
     width: 130px;
@@ -26,3 +29,32 @@
 .m-value:hover{
     color: aqua;
 }
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(),
+    linear-gradient(45deg,#030303,#635d5d);
+}
+
+.banner-text > .banner-heading{
+    font-size: 40px;
+    color: #e80d0d;
+    margin-bottom: 10px;
+}
+.banner-text > .banner-pra{
+    color: #40d457;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.banner-btn{
+    background-color: #e80d0d;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
