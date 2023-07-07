@@ -4,13 +4,25 @@
     background-color: rgba(128, 128, 128, 0.377);
 }
 .menu-container{
-    background-color: rgba(0, 0, 0, 0.802);
+    background-color: rgba(224, 13, 55, 0.568);
+    padding: 20px;
+    color: aliceblue;
     display: flex;
-    justify-content:space-around ;
     align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.m-value{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .logo-photo{
     width: 130px;
-    border-radius: 5px;
-    background-color: aqua;
+    background-color: rgba(220, 20, 60, 0.826);
+}
+.m-value:hover{
+    color: aqua;
 }
